@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario Notas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="formulario">
+        <label for="nota">Primer Parcial</label>
+        <input type="text" id="primerParcial" maxlength="3" required>
+        
+        <label for="nota">Segundo Parcial</label>
+        <input type="text" id="segundoParcial" maxlength="3" required>
+        
+        <label for="nota">Tercer Parcial</label>
+        <input type="text" id="tercerParcial" maxlength="3" required>
+        
+        <label for="nota">Cuarto Parcial</label>
+        <input type="text" id="cuartoParcial" maxlength="3" required>
+        
+        <button id="btn">enviar</button>
+        
+        <p>Resultado: <span id="total"></span></p>
+        <p>Tu:
+            <span id="tu_nota"></span>
+        </p>
+    </div>
+        
+        <script src="main.js"></script>
+        
+    </body>
+    </html>
